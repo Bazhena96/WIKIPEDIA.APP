@@ -58,7 +58,7 @@ Create Account
     Wait And Click   accessibility_id=CAPTCHA text
     Input Text  accessibility_id=CAPTCHA text    ROW
     Wait And Click  accessibility_id=Create your account
-Verify Error Message, When User Created Account With Invalid Capture
+Verify Error Message When User Created Account With Invalid Capture
     Wait Until Page Contains  invalid CAPTCHA
 Log Into Account And See A Correct Error Message
     [Arguments]  &{credentials}
@@ -76,7 +76,7 @@ Log Into Account With Invalid Data
     Wait And Click  accessibility_id=enter password
     Input Text  accessibility_id=enter password  ${credentials}[UserPassword]
     Wait And Click  xpath=//XCUIElementTypeButton[@name="Log in"]
-Verify Error Message, When User Log Into Account With Invalid Data
+Verify Error Message When User Log Into Account With Invalid Data
     [Arguments]  &{credentials}
     Wait Until Page Contains  ${credentials}[ErrorMessage]
 Forgot Password
