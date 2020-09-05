@@ -70,6 +70,6 @@ User add article to save
     Save Article
     Close Application
 User verify the location
-   Load Appliacation And Skip Settings
-   Search The Location  Minsk,Belarus
-   Close Application
+    Load Appliacation And Skip Settings
+    Search The Location  Minsk,Belarus
+    Close Application
